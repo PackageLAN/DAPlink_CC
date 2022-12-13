@@ -7388,19 +7388,19 @@
       (reference "J1") (unit 1) (value "USB_TypeC-24") (footprint "")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/37279274-71bb-46e2-8af9-b544d17bf0cc"
-      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "")
+      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "251_CONN_PIN_HEADER_THD:VM-01x04_1mm")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/89bc7ef8-585d-410e-8e46-2c49a2158285"
-      (reference "J3") (unit 1) (value "USB_TypeC-24") (footprint "")
+      (reference "J3") (unit 1) (value "USB_TypeC-24") (footprint "206_CONN_USB:SCM-24_L1402ST")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/1453d58a-a430-4046-b24d-eae56227e5ee"
-      (reference "J4") (unit 1) (value "Conn_01x02") (footprint "")
+      (reference "J4") (unit 1) (value "Conn_01x02") (footprint "251_CONN_PIN_HEADER_THD:VM-01x02_1mm")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/0a517ff0-2c56-4249-af2e-37df2e52d2ff"
-      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "")
+      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "251_CONN_PIN_HEADER_THD:VM-01x02_1mm")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/3186de4c-78a5-46cf-8660-9a83098b6d7f"
-      (reference "J6") (unit 1) (value "Conn_01x04") (footprint "")
+      (reference "J6") (unit 1) (value "Conn_01x04") (footprint "251_CONN_PIN_HEADER_THD:VM-01x04_1mm")
     )
     (path "/cb0f11d3-af3b-4695-8c94-bc332b64d0c8"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "008_GN_POWER-CHOKE_SMD:MC-2520")
