@@ -2676,7 +2676,7 @@
     (uuid 4453fad0-3ecf-4d71-8ea8-f08497de193b)
     (property "Reference" "J1" (id 0) (at 73.66 36.83 0))
     (property "Value" "USB_TypeC-24" (id 1) (at 73.66 39.37 0))
-    (property "Footprint" "" (id 2) (at 73.66 38.1 0)
+    (property "Footprint" "206_CONN_USB:SCF-24_7925SST" (id 2) (at 73.66 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 73.66 53.34 0)

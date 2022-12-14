@@ -6474,11 +6474,11 @@
   (symbol (lib_id "001_Basic_PassiveComponents:301_FerriteBead") (at 162.56 167.64 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid de0f3acd-cb25-42b1-950d-bedb1d62762e)
-    (property "Reference" "FB1" (id 0) (at 165.1 166.3699 90)
+    (property "Reference" "FB1" (id 0) (at 165.1 167.6399 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120R" (id 1) (at 165.1 168.9099 90)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "120R_100MHz" (id 1) (at 165.1 168.9099 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "001_GN_RCL_SMD:L0603(1608M)" (id 2) (at 167.64 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7382,10 +7382,10 @@
       (reference "D17") (unit 1) (value "LESD11LL5.0CT5G") (footprint "002_GN_TWO-PIN_PLASTIC_SMD:DFN-2_0603")
     )
     (path "/de0f3acd-cb25-42b1-950d-bedb1d62762e"
-      (reference "FB1") (unit 1) (value "120R") (footprint "001_GN_RCL_SMD:L0603(1608M)")
+      (reference "FB1") (unit 1) (value "120R_100MHz") (footprint "001_GN_RCL_SMD:L0603(1608M)")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/4453fad0-3ecf-4d71-8ea8-f08497de193b"
-      (reference "J1") (unit 1) (value "USB_TypeC-24") (footprint "")
+      (reference "J1") (unit 1) (value "USB_TypeC-24") (footprint "206_CONN_USB:SCF-24_7925SST")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/37279274-71bb-46e2-8af9-b544d17bf0cc"
       (reference "J2") (unit 1) (value "Conn_01x04") (footprint "251_CONN_PIN_HEADER_THD:VM-01x04_1mm")
