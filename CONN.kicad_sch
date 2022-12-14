@@ -2891,7 +2891,7 @@
     (uuid 89bc7ef8-585d-410e-8e46-2c49a2158285)
     (property "Reference" "J3" (id 0) (at 190.5 44.45 0))
     (property "Value" "USB_TypeC-24" (id 1) (at 190.5 46.99 0))
-    (property "Footprint" "206_CONN_USB:SCM-24_L1402ST" (id 2) (at 190.5 45.72 0)
+    (property "Footprint" "206_CONN_USB:SCM-24_L1402SST" (id 2) (at 190.5 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 190.5 60.96 0)
