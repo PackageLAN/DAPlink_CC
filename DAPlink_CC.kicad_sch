@@ -2430,58 +2430,6 @@
         )
       )
     )
-    (symbol "PowerPort:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VBUS" (id 1) (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VBUS\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VBUS_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "VBUS_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "PowerPort:VDC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -4274,7 +4222,7 @@
     (property "Value" "100nF" (id 1) (at 154.94 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "001_GN_RCL_SMD:C0201(0603M)" (id 2) (at 160.02 137.16 0)
+    (property "Footprint" "001_GN_RCL_SMD:C0402(1005M)" (id 2) (at 160.02 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 154.94 137.16 0)
@@ -4559,7 +4507,7 @@
     (property "Value" "100nF" (id 1) (at 170.18 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "001_GN_RCL_SMD:C0201(0603M)" (id 2) (at 175.26 137.16 0)
+    (property "Footprint" "001_GN_RCL_SMD:C0402(1005M)" (id 2) (at 175.26 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 170.18 137.16 0)
@@ -5348,22 +5296,6 @@
     (pin "2" (uuid a4030efd-148b-4aad-bae8-2e2b0710a072))
   )
 
-  (symbol (lib_id "PowerPort:VBUS") (at 162.56 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 63e35888-7e33-4d3f-8efd-874d30d0b602)
-    (property "Reference" "#PWR047" (id 0) (at 162.56 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (id 1) (at 162.56 127 0))
-    (property "Footprint" "" (id 2) (at 162.56 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 162.56 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a832233e-b899-485a-8e36-d4850c484513))
-  )
-
   (symbol (lib_id "PowerPort:GND") (at 170.18 99.06 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 659152ce-4223-4829-89f9-80e32d6018ea)
@@ -5821,6 +5753,22 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1d3f8ece-c3b1-4b3a-9f5e-76b463f25ea6))
+  )
+
+  (symbol (lib_id "PowerPort:+5VP") (at 162.56 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid a02860f2-0655-4205-b2ee-27e2af2e346f)
+    (property "Reference" "#PWR0103" (id 0) (at 162.56 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5VP" (id 1) (at 162.56 127 0))
+    (property "Footprint" "" (id 2) (at 162.56 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 162.56 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dce52faa-e42e-4201-9be1-e15ce956536b))
   )
 
   (symbol (lib_id "001_Basic_PassiveComponents:001_Resistor") (at 208.28 132.08 0) (unit 1)
@@ -6502,7 +6450,7 @@
     (property "Value" "100nF" (id 1) (at 162.56 139.7 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "001_GN_RCL_SMD:C0201(0603M)" (id 2) (at 167.64 137.16 0)
+    (property "Footprint" "001_GN_RCL_SMD:C0402(1005M)" (id 2) (at 167.64 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 162.56 137.16 0)
@@ -7003,9 +6951,6 @@
     (path "/e88d07b1-cd3c-434f-9d55-35f50dd3a66f"
       (reference "#PWR046") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/63e35888-7e33-4d3f-8efd-874d30d0b602"
-      (reference "#PWR047") (unit 1) (value "VBUS") (footprint "")
-    )
     (path "/e4cfe593-5cbd-43a1-a612-dcd9876f76dd"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
@@ -7156,6 +7101,9 @@
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/1a3d8012-4cd9-4257-9d54-f20ac339de27"
       (reference "#PWR0102") (unit 1) (value "VDC") (footprint "")
     )
+    (path "/a02860f2-0655-4205-b2ee-27e2af2e346f"
+      (reference "#PWR0103") (unit 1) (value "+5VP") (footprint "")
+    )
     (path "/633d0c7e-019e-4122-b2c7-1df570f36270"
       (reference "C1") (unit 1) (value "10pF") (footprint "001_GN_RCL_SMD:C0201(0603M)")
     )
@@ -7193,13 +7141,13 @@
       (reference "C12") (unit 1) (value "100nF") (footprint "001_GN_RCL_SMD:C0201(0603M)")
     )
     (path "/056ea6ae-7768-49a5-a364-493a67c302f2"
-      (reference "C13") (unit 1) (value "100nF") (footprint "001_GN_RCL_SMD:C0201(0603M)")
+      (reference "C13") (unit 1) (value "100nF") (footprint "001_GN_RCL_SMD:C0402(1005M)")
     )
     (path "/afc2c77d-8304-4c7a-860c-7d54a10a51a6"
       (reference "C14") (unit 1) (value "100nF") (footprint "001_GN_RCL_SMD:C0201(0603M)")
     )
     (path "/e5ef9a17-ff61-4026-9061-610ac378a72e"
-      (reference "C15") (unit 1) (value "100nF") (footprint "001_GN_RCL_SMD:C0201(0603M)")
+      (reference "C15") (unit 1) (value "100nF") (footprint "001_GN_RCL_SMD:C0402(1005M)")
     )
     (path "/e2c42708-2c2b-4361-9288-da7eda424ad5"
       (reference "C16") (unit 1) (value "4.7uF") (footprint "001_GN_RCL_SMD:C0402(1005M)")
@@ -7208,7 +7156,7 @@
       (reference "C17") (unit 1) (value "100nF") (footprint "001_GN_RCL_SMD:C0201(0603M)")
     )
     (path "/1c188069-ee68-4fa9-b6f4-f0d293caf79a"
-      (reference "C18") (unit 1) (value "100nF") (footprint "001_GN_RCL_SMD:C0201(0603M)")
+      (reference "C18") (unit 1) (value "100nF") (footprint "001_GN_RCL_SMD:C0402(1005M)")
     )
     (path "/79427b9c-09b0-4e0a-80be-69439e933aef"
       (reference "C19") (unit 1) (value "4.7uF") (footprint "001_GN_RCL_SMD:C0402(1005M)")
@@ -7379,13 +7327,13 @@
       (reference "R17") (unit 1) (value "10k") (footprint "001_GN_RCL_SMD:R0201(0603M)")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/02f0b071-4e62-4847-9c83-33aebd872bd8"
-      (reference "R18") (unit 1) (value "100k") (footprint "001_GN_RCL_SMD:R0201(0603M)")
+      (reference "R18") (unit 1) (value "100k") (footprint "001_GN_RCL_SMD:R0402(1005M)")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/2cac6749-8ea4-44ea-8652-1f30a59eec44"
       (reference "R19") (unit 1) (value "10k") (footprint "001_GN_RCL_SMD:R0201(0603M)")
     )
     (path "/63e65823-a499-4fc9-83ba-7754dd13e5bf/20d2b459-8de7-491e-b910-92240af2c5d9"
-      (reference "R20") (unit 1) (value "100k") (footprint "001_GN_RCL_SMD:R0201(0603M)")
+      (reference "R20") (unit 1) (value "100k") (footprint "001_GN_RCL_SMD:R0402(1005M)")
     )
     (path "/4d68af14-1ca3-403c-93af-01761416c10e"
       (reference "U1") (unit 1) (value "ZD25Q80BNIGR") (footprint "003_GN_SMALL-SEMI_SMD:DFN-8_1515")
