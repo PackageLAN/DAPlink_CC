@@ -170,11 +170,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "lib_symbol_issues|1295400|1016000|bae21b9a-b169-447e-a846-1cd732a6d8cc|00000000-0000-0000-0000-000000000000",
-      "lib_symbol_issues|1905000|660400|89bc7ef8-585d-410e-8e46-2c49a2158285|00000000-0000-0000-0000-000000000000",
-      "lib_symbol_issues|736600|558800|4453fad0-3ecf-4d71-8ea8-f08497de193b|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
